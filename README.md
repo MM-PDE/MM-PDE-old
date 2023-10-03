@@ -1,16 +1,17 @@
-### Hi there 👋
+# Better Neural PDE Solvers Through Data-Free Mesh Movers
 
-<!--
-**MM-PDE/MM-PDE** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Data-free Mesh Mover (DMM)
+- Burgers' equation:  
+  cd mesh  
+  python operator_MA.py 
+- Flow around a cylinder:  
+  cd mesh  
+  python operator_MA.py --experiment cy --train_sample_grid 1500 --branch_layers 4,3 --trunk_layers 16,512
 
-Here are some ideas to get you started:
+## MM-PDE
+- Burgers' equation:  
+  python train_2d_itp.py
+- Flow around a cylinder:  
+  python train_2d_itp.py --experiment cy --base_resolution 30,2521
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
