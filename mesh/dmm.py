@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import argparse
 import datetime
 
-from operator_model import DMM
-from operator_utils import *
+from dmm_model import DMM
+from dmm_utils import *
 
 def get_args(argv=None):
     parser = argparse.ArgumentParser(description = 'Put your hyperparameters')
