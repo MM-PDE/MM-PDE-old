@@ -16,7 +16,7 @@ from gnn_2d import MP_PDE_Solver_2D
 from models_cnn import BaseCNN
 from train_helper_2d import *
 from PDEs import *
-from mesh.operator_model import DMM
+from mesh.dmm_model import DMM
 from interpolate import ItpNet
 from torch.utils.tensorboard import SummaryWriter  
 
