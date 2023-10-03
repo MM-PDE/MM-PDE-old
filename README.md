@@ -10,8 +10,8 @@
 
 ## MM-PDE
 - Burgers' equation:  
-  python train_2d_itp.py
+  python mmpde.py
 - Flow around a cylinder:  
-  python train_2d_itp.py --experiment cy --base_resolution 30,2521
+  python mmpde.py --experiment cy --base_resolution 30,2521
 
 
