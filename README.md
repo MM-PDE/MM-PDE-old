@@ -1,6 +1,6 @@
 # Better Neural PDE Solvers Through Data-Free Mesh Movers
 
-⚠️⚠️⚠️ This is an old version. The new code can be found at https://github.com/Peiyannn/MM-PDE.git. 
+## ⚠️⚠️⚠️ This is an old version. The new code can be found at https://github.com/Peiyannn/MM-PDE.git. 
 
 ## Data-free Mesh Mover (DMM)
 - Burgers' equation:  
